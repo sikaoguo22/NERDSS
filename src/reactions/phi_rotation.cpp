@@ -1,5 +1,6 @@
 #include "io/io.hpp"
 #include "reactions/association/association.hpp"
+#include "utils/angle_utils.hpp"
 #include "tracing.hpp"
 
 void phi_rotation(Coord& reactIface1, Coord& reactIface2, int ifaceIndex1,

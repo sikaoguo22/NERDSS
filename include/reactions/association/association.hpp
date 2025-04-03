@@ -103,12 +103,6 @@ void associate_implicitlipid_sphere(
     const std::vector<ForwardRxn>& forwardRxns,
     const std::vector<BackRxn>& backRxns);
 
-/* BOOLEANS */
-/*! \ingroup Associate
- * \brief This checks if two angles are equal, accounting for minus signs
- */
-bool areSameAngle(double ang1, double ang2);
-
 /*! \ingroup Associate
  * \brief Checks if two vectors are parallel
  */

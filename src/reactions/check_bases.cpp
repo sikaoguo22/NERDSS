@@ -1,6 +1,7 @@
 #include <iomanip>
 
 #include "reactions/association/association.hpp"
+#include "utils/angle_utils.hpp"
 #include "tracing.hpp"
 
 void check_bases(bool& cancelAssoc, const Coord& reactIface1,

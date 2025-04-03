@@ -1,4 +1,5 @@
 #include "reactions/association/association.hpp"
+#include "utils/angle_utils.hpp"
 #include "tracing.hpp"
 
 void theta_rotation(int ifaceIndex1, int ifaceIndex2, Coord& reactIface1,

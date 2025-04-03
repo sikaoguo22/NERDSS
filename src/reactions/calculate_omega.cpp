@@ -1,4 +1,5 @@
 #include "reactions/association/association.hpp"
+#include "utils/angle_utils.hpp"
 #include "tracing.hpp"
 
 double calculate_omega(Coord reactIface1, int reactIface2, Vector& sigma,
