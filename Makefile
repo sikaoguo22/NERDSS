@@ -3,10 +3,10 @@
 BUILD_TYPE ?= mpi
 EXEC_BASE = nerdss_$(BUILD_TYPE)
 EXEC = bin/$(EXEC_BASE)
-MAIN_SRC = EXEs/$(EXEC_BASE).cpp
+MAIN_SRC = src/main/$(EXEC_BASE).cpp
 
 SRC_DIRS = src src/boundary_conditions src/classes src/io src/math src/parser \
-           src/reactions src/system_setup src/trajectory_functions src/error src/debug src/mpi
+           src/reactions src/system_setup src/trajectory_functions src/error src/debug src/mpi src/app src/core
 VPATH := $(SRC_DIRS)
 
 OBJ_DIR = obj

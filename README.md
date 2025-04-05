@@ -51,3 +51,31 @@ Note that the size of the largest complex in the simulation cannot be larger tha
 ### NERDSS Parallel Developer Guide
 
  [NERDSS_Parallel_Developer_Guide](./doc/NERDSS_Parallel_Developer_Guide.pdf)
+
+#### C++ File & Class Naming Convention
+
+![naming_convention](./doc/naming_convention.png)
+
+#### Folder Structure Convention
+
+```
+include/
+  app/               → core logic (SimulationApp, SimulationLoop)
+  core/              → molecule, complex, membrane, etc.
+  mpi/               → MPI-related interfaces
+  utils/             → RNG, math, file helpers
+
+src/
+  main/nerdss_mpi.cpp
+  app/
+  core/
+  mpi/
+  utils/
+
+test/
+  test_SimulationApp.cpp
+  test_rng_utils.cpp
+
+external/
+  googletest/
+```
